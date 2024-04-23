@@ -1,0 +1,11 @@
+button {
+  margin-top: 20px;
+  border: none;
+  background-color: teal;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 18px;
+  &:hover {
+    cursor: pointer;
+  }
+}

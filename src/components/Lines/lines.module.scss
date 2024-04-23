@@ -1,0 +1,25 @@
+.progress {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+.line {
+  height: 6px;
+
+  flex-grow: 1;
+  background: #999;
+}
+
+.active {
+  height: 6px;
+
+  flex-grow: 1;
+  background: teal;
+}
+
+.complete {
+  height: 6px;
+
+  flex-grow: 1;
+  background: black;
+}
